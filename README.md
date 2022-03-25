@@ -20,10 +20,10 @@ yarn start
 
 **Note**
 
-Before using the **Get** button and the **Delete** button, you have to first provide the keys in the code by replace `{NAME_OF_FILE}` and `{KEY_OF_FILE_TO_DELETE}` respectively.
+Before using the **Get** button and the **Delete** button, you'll have first to provide the keys in the code by replacing `{NAME_OF_FILE}` and `{KEY_OF_FILE_TO_DELETE}` respectively.
 
 # MISC
 
-`@ts-check` is get some typescript help without using typescript.
+`@ts-check` is used to get some typescript help without using typescript.
 
 `@aws-sdk/s3-request-presigner` isn't necessary to interact with your bucket, it's only so when you need to get a shareable url.
