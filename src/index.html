@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Use S3 client to interact with Storj</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+    <style>
+      #introduction {
+        margin-bottom: 3rem;
+      }
+      #interface {
+        display: flex;
+      }
+      #display {
+        width: 600;
+        overflow-y: scroll;
+        height: 50vh;
+      }
+      p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Use S3 client to interact with Storj</h1>
+      This is a POC showing how one can interact with
+      <a href="https://storj.io">Storj</a> using S3 Client.
+      <br />
+      You can find a step-by-step guide <a href="#">here</a>.
+      <br />
+      Note: For "Get" and "Delete" buttons to work, edit your object keys in the
+      code.
+    </header>
+
+    <main>
+      <div id="interface">
+        <ul class="commands">
+          <li>Upload</li>
+          <input type="file" />
+          <li>List</li>
+          <button id="list">List</button>
+          <li>Get</li>
+          <button id="get">Get</button>
+          <li>Delete</li>
+          <button id="delete">Delete</button>
+          <li>Get Url</li>
+          <button id="get-url">Get url</button>
+        </ul>
+
+        <pre id="display"></pre>
+      </div>
+    </main>
+
+    <footer>
+      <p>The blog is .</p>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
